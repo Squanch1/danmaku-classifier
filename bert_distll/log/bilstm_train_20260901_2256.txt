@@ -1,0 +1,1221 @@
+BiLSTM 训练日志 | 2026-09-01 22:56:46
+设备: cuda | epochs=30 | lr=0.001 | batch=32
+Epoch:1, Step:20, Loss:1.2637
+Epoch:1, Step:40, Loss:1.0931
+Epoch:1, Step:60, Loss:1.0045
+Epoch:1, Step:80, Loss:0.9424
+Epoch:1, Step:100, Loss:0.9088
+Epoch:1, Step:100, weighted_f1:0.7107, 耗时:1.8s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.68      0.76       250
+           1       0.75      0.79      0.77       250
+           2       0.55      0.50      0.53       250
+           3       0.70      0.89      0.79       250
+
+    accuracy                           0.71      1000
+   macro avg       0.72      0.71      0.71      1000
+weighted avg       0.72      0.71      0.71      1000
+
+[[169  14  60   7]
+ [  9 197  21  23]
+ [ 15  46 126  63]
+ [  1   5  22 222]]
+Epoch:1, Step:120, Loss:0.8686
+Epoch:1, Step:125, weighted_f1:0.7087, 耗时:2.3s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.77      0.84      0.81       250
+           1       0.75      0.80      0.78       250
+           2       0.57      0.42      0.48       250
+           3       0.73      0.82      0.77       250
+
+    accuracy                           0.72      1000
+   macro avg       0.71      0.72      0.71      1000
+weighted avg       0.71      0.72      0.71      1000
+
+[[210  15  20   5]
+ [  9 201  21  19]
+ [ 47  47 104  52]
+ [  5   4  37 204]]
+Epoch:2, Step:145, Loss:0.6668
+Epoch:2, Step:165, Loss:0.6266
+Epoch:2, Step:185, Loss:0.6081
+Epoch:2, Step:205, Loss:0.5885
+Epoch:2, Step:225, Loss:0.5716
+Epoch:2, Step:225, weighted_f1:0.7645, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.83      0.89      0.86       250
+           1       0.83      0.77      0.80       250
+           2       0.62      0.58      0.60       250
+           3       0.77      0.83      0.80       250
+
+    accuracy                           0.77      1000
+   macro avg       0.76      0.77      0.76      1000
+weighted avg       0.76      0.77      0.76      1000
+
+[[223   5  19   3]
+ [  9 192  35  14]
+ [ 32  30 144  44]
+ [  6   3  33 208]]
+Epoch:2, Step:245, Loss:0.5678
+Epoch:2, Step:250, weighted_f1:0.7529, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.83      0.88      0.85       250
+           1       0.86      0.78      0.82       250
+           2       0.64      0.49      0.55       250
+           3       0.70      0.89      0.78       250
+
+    accuracy                           0.76      1000
+   macro avg       0.76      0.76      0.75      1000
+weighted avg       0.76      0.76      0.75      1000
+
+[[221   3  19   7]
+ [ 10 195  26  19]
+ [ 33  27 122  68]
+ [  3   2  23 222]]
+Epoch:3, Step:270, Loss:0.3873
+Epoch:3, Step:290, Loss:0.4052
+Epoch:3, Step:310, Loss:0.4097
+Epoch:3, Step:330, Loss:0.4317
+Epoch:3, Step:350, Loss:0.4287
+Epoch:3, Step:350, weighted_f1:0.7481, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.89      0.82      0.85       250
+           1       0.76      0.82      0.79       250
+           2       0.62      0.50      0.56       250
+           3       0.74      0.87      0.80       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[206   9  29   6]
+ [  6 204  25  15]
+ [ 18  49 126  57]
+ [  2   7  24 217]]
+Epoch:3, Step:370, Loss:0.4283
+Epoch:3, Step:375, weighted_f1:0.7606, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       250
+           1       0.85      0.77      0.81       250
+           2       0.64      0.52      0.57       250
+           3       0.70      0.93      0.80       250
+
+    accuracy                           0.77      1000
+   macro avg       0.77      0.77      0.76      1000
+weighted avg       0.77      0.77      0.76      1000
+
+[[210   5  27   8]
+ [  4 192  35  19]
+ [ 21  26 131  72]
+ [  3   2  13 232]]
+Epoch:4, Step:395, Loss:0.3285
+Epoch:4, Step:415, Loss:0.3224
+Epoch:4, Step:435, Loss:0.3243
+Epoch:4, Step:455, Loss:0.3235
+Epoch:4, Step:475, Loss:0.3300
+Epoch:4, Step:475, weighted_f1:0.7481, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.90      0.79      0.84       250
+           1       0.80      0.80      0.80       250
+           2       0.61      0.50      0.55       250
+           3       0.70      0.92      0.80       250
+
+    accuracy                           0.75      1000
+   macro avg       0.76      0.75      0.75      1000
+weighted avg       0.76      0.75      0.75      1000
+
+[[198   7  35  10]
+ [  4 200  30  16]
+ [ 15  39 125  71]
+ [  2   4  14 230]]
+Epoch:4, Step:495, Loss:0.3335
+Epoch:4, Step:500, weighted_f1:0.7366, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.85       250
+           1       0.79      0.78      0.79       250
+           2       0.62      0.45      0.52       250
+           3       0.70      0.91      0.79       250
+
+    accuracy                           0.75      1000
+   macro avg       0.74      0.75      0.74      1000
+weighted avg       0.74      0.75      0.74      1000
+
+[[211   8  23   8]
+ [  6 195  30  19]
+ [ 28  40 112  70]
+ [  3   3  16 228]]
+Epoch:5, Step:520, Loss:0.2648
+Epoch:5, Step:540, Loss:0.2517
+Epoch:5, Step:560, Loss:0.2298
+Epoch:5, Step:580, Loss:0.2246
+Epoch:5, Step:600, Loss:0.2400
+Epoch:5, Step:600, weighted_f1:0.7383, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.92      0.75      0.83       250
+           1       0.82      0.76      0.79       250
+           2       0.57      0.52      0.55       250
+           3       0.69      0.92      0.79       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[188   5  46  11]
+ [  4 190  36  20]
+ [ 12  34 131  73]
+ [  1   2  16 231]]
+Epoch:5, Step:620, Loss:0.2464
+Epoch:5, Step:625, weighted_f1:0.7641, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.82      0.85       250
+           1       0.89      0.74      0.81       250
+           2       0.57      0.68      0.62       250
+           3       0.76      0.80      0.78       250
+
+    accuracy                           0.76      1000
+   macro avg       0.78      0.76      0.76      1000
+weighted avg       0.78      0.76      0.76      1000
+
+[[206   5  34   5]
+ [  5 184  49  12]
+ [ 20  15 169  46]
+ [  2   2  46 200]]
+Epoch:6, Step:645, Loss:0.1589
+Epoch:6, Step:665, Loss:0.1660
+Epoch:6, Step:685, Loss:0.1582
+Epoch:6, Step:705, Loss:0.1575
+Epoch:6, Step:725, Loss:0.1580
+Epoch:6, Step:725, weighted_f1:0.7369, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.90      0.80      0.85       250
+           1       0.84      0.79      0.82       250
+           2       0.51      0.71      0.59       250
+           3       0.78      0.62      0.69       250
+
+    accuracy                           0.73      1000
+   macro avg       0.76      0.73      0.74      1000
+weighted avg       0.76      0.73      0.74      1000
+
+[[199   7  42   2]
+ [  1 198  40  11]
+ [ 18  24 177  31]
+ [  2   6  87 155]]
+Epoch:6, Step:745, Loss:0.1706
+Epoch:6, Step:750, weighted_f1:0.7565, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.90      0.79      0.84       250
+           1       0.84      0.76      0.79       250
+           2       0.60      0.60      0.60       250
+           3       0.72      0.88      0.79       250
+
+    accuracy                           0.76      1000
+   macro avg       0.76      0.76      0.76      1000
+weighted avg       0.76      0.76      0.76      1000
+
+[[198   7  36   9]
+ [  6 189  37  18]
+ [ 16  26 149  59]
+ [  1   4  25 220]]
+Epoch:7, Step:770, Loss:0.1135
+Epoch:7, Step:790, Loss:0.1133
+Epoch:7, Step:810, Loss:0.1124
+Epoch:7, Step:830, Loss:0.1179
+Epoch:7, Step:850, Loss:0.1177
+Epoch:7, Step:850, weighted_f1:0.7340, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.80      0.87      0.84       250
+           1       0.82      0.75      0.78       250
+           2       0.59      0.52      0.55       250
+           3       0.72      0.82      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.73      0.74      0.73      1000
+weighted avg       0.73      0.74      0.73      1000
+
+[[218   4  20   8]
+ [ 13 187  31  19]
+ [ 36  31 129  54]
+ [  4   5  37 204]]
+Epoch:7, Step:870, Loss:0.1225
+Epoch:7, Step:875, weighted_f1:0.7290, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.89      0.78      0.84       250
+           1       0.77      0.77      0.77       250
+           2       0.54      0.60      0.57       250
+           3       0.74      0.74      0.74       250
+
+    accuracy                           0.72      1000
+   macro avg       0.74      0.73      0.73      1000
+weighted avg       0.74      0.72      0.73      1000
+
+[[196  12  35   7]
+ [  1 192  42  15]
+ [ 19  37 151  43]
+ [  3   9  52 186]]
+Epoch:8, Step:895, Loss:0.0815
+Epoch:8, Step:915, Loss:0.0865
+Epoch:8, Step:935, Loss:0.0854
+Epoch:8, Step:955, Loss:0.0877
+Epoch:8, Step:975, Loss:0.0876
+Epoch:8, Step:975, weighted_f1:0.7402, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84       250
+           1       0.79      0.77      0.78       250
+           2       0.60      0.51      0.55       250
+           3       0.71      0.87      0.78       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[206  10  24  10]
+ [  5 193  34  18]
+ [ 26  37 128  59]
+ [  2   3  28 217]]
+Epoch:8, Step:995, Loss:0.0963
+Epoch:8, Step:1000, weighted_f1:0.7290, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.92      0.74      0.82       250
+           1       0.86      0.71      0.77       250
+           2       0.50      0.72      0.59       250
+           3       0.77      0.70      0.73       250
+
+    accuracy                           0.72      1000
+   macro avg       0.76      0.72      0.73      1000
+weighted avg       0.76      0.72      0.73      1000
+
+[[186   5  54   5]
+ [  5 177  56  12]
+ [ 11  23 179  37]
+ [  1   2  71 176]]
+Epoch:9, Step:1020, Loss:0.0764
+Epoch:9, Step:1040, Loss:0.0778
+Epoch:9, Step:1060, Loss:0.0736
+Epoch:9, Step:1080, Loss:0.0764
+Epoch:9, Step:1100, Loss:0.0726
+Epoch:9, Step:1100, weighted_f1:0.7581, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.91      0.80      0.85       250
+           1       0.84      0.78      0.81       250
+           2       0.57      0.61      0.59       250
+           3       0.74      0.83      0.78       250
+
+    accuracy                           0.76      1000
+   macro avg       0.76      0.76      0.76      1000
+weighted avg       0.76      0.76      0.76      1000
+
+[[201   2  39   8]
+ [  1 194  38  17]
+ [ 18  32 153  47]
+ [  2   2  39 207]]
+Epoch:9, Step:1120, Loss:0.0712
+Epoch:9, Step:1125, weighted_f1:0.7535, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       250
+           1       0.83      0.77      0.80       250
+           2       0.58      0.60      0.59       250
+           3       0.74      0.79      0.76       250
+
+    accuracy                           0.75      1000
+   macro avg       0.76      0.75      0.75      1000
+weighted avg       0.76      0.75      0.75      1000
+
+[[211   5  27   7]
+ [  6 192  35  17]
+ [ 21  32 151  46]
+ [  3   3  46 198]]
+Epoch:10, Step:1145, Loss:0.0238
+Epoch:10, Step:1165, Loss:0.0300
+Epoch:10, Step:1185, Loss:0.0360
+Epoch:10, Step:1205, Loss:0.0339
+Epoch:10, Step:1225, Loss:0.0364
+Epoch:10, Step:1225, weighted_f1:0.7286, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.89      0.78      0.84       250
+           1       0.82      0.74      0.78       250
+           2       0.52      0.64      0.57       250
+           3       0.73      0.72      0.73       250
+
+    accuracy                           0.72      1000
+   macro avg       0.74      0.72      0.73      1000
+weighted avg       0.74      0.72      0.73      1000
+
+[[196   6  43   5]
+ [  4 186  43  17]
+ [ 16  31 159  44]
+ [  3   5  61 181]]
+Epoch:10, Step:1245, Loss:0.0377
+Epoch:10, Step:1250, weighted_f1:0.7348, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.80      0.88      0.84       250
+           1       0.82      0.74      0.78       250
+           2       0.58      0.53      0.55       250
+           3       0.73      0.80      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.73      0.74      0.73      1000
+weighted avg       0.73      0.74      0.73      1000
+
+[[221   4  20   5]
+ [ 10 185  36  19]
+ [ 37  32 132  49]
+ [  7   4  39 200]]
+Epoch:11, Step:1270, Loss:0.0195
+Epoch:11, Step:1290, Loss:0.0230
+Epoch:11, Step:1310, Loss:0.0211
+Epoch:11, Step:1330, Loss:0.0291
+Epoch:11, Step:1350, Loss:0.0313
+Epoch:11, Step:1350, weighted_f1:0.7439, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       250
+           1       0.81      0.75      0.78       250
+           2       0.58      0.56      0.57       250
+           3       0.73      0.82      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[210   4  29   7]
+ [  8 187  40  15]
+ [ 20  34 141  55]
+ [  2   7  35 206]]
+Epoch:11, Step:1370, Loss:0.0311
+Epoch:11, Step:1375, weighted_f1:0.7455, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       250
+           1       0.80      0.76      0.78       250
+           2       0.58      0.58      0.58       250
+           3       0.72      0.80      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.74      0.75      1000
+
+[[210   5  24  11]
+ [  7 191  34  18]
+ [ 20  38 144  48]
+ [  1   4  45 200]]
+Epoch:12, Step:1395, Loss:0.0246
+Epoch:12, Step:1415, Loss:0.0384
+Epoch:12, Step:1435, Loss:0.0450
+Epoch:12, Step:1455, Loss:0.0438
+Epoch:12, Step:1475, Loss:0.0453
+Epoch:12, Step:1475, weighted_f1:0.7421, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.90      0.82      0.86       250
+           1       0.81      0.76      0.78       250
+           2       0.54      0.63      0.58       250
+           3       0.76      0.74      0.75       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[205   4  39   2]
+ [  5 189  40  16]
+ [ 18  33 158  41]
+ [  1   7  57 185]]
+Epoch:12, Step:1495, Loss:0.0440
+Epoch:12, Step:1500, weighted_f1:0.7383, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.86      0.87       250
+           1       0.80      0.75      0.78       250
+           2       0.55      0.60      0.57       250
+           3       0.74      0.74      0.74       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[215   4  26   5]
+ [ 10 188  38  14]
+ [ 19  38 149  44]
+ [  3   4  59 184]]
+Epoch:13, Step:1520, Loss:0.0211
+Epoch:13, Step:1540, Loss:0.0264
+Epoch:13, Step:1560, Loss:0.0207
+Epoch:13, Step:1580, Loss:0.0228
+Epoch:13, Step:1600, Loss:0.0255
+Epoch:13, Step:1600, weighted_f1:0.7424, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.91      0.76      0.83       250
+           1       0.81      0.76      0.78       250
+           2       0.55      0.65      0.59       250
+           3       0.74      0.78      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[190   6  47   7]
+ [  5 189  41  15]
+ [ 12  30 162  46]
+ [  1   8  45 196]]
+Epoch:13, Step:1620, Loss:0.0245
+Epoch:13, Step:1625, weighted_f1:0.7343, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.80      0.84       250
+           1       0.78      0.77      0.78       250
+           2       0.55      0.60      0.58       250
+           3       0.74      0.75      0.74       250
+
+    accuracy                           0.73      1000
+   macro avg       0.74      0.73      0.73      1000
+weighted avg       0.74      0.73      0.73      1000
+
+[[199   6  37   8]
+ [  6 193  37  14]
+ [ 17  37 151  45]
+ [  3  10  49 188]]
+Epoch:14, Step:1645, Loss:0.0205
+Epoch:14, Step:1665, Loss:0.0208
+Epoch:14, Step:1685, Loss:0.0198
+Epoch:14, Step:1705, Loss:0.0285
+Epoch:14, Step:1725, Loss:0.0394
+Epoch:14, Step:1725, weighted_f1:0.7399, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.84      0.84      0.84       250
+           1       0.81      0.76      0.78       250
+           2       0.57      0.57      0.57       250
+           3       0.74      0.80      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[210   4  29   7]
+ [  6 189  38  17]
+ [ 28  35 142  45]
+ [  7   5  39 199]]
+Epoch:14, Step:1745, Loss:0.0423
+Epoch:14, Step:1750, weighted_f1:0.7448, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.89      0.81      0.85       250
+           1       0.84      0.75      0.79       250
+           2       0.56      0.58      0.57       250
+           3       0.72      0.83      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[203   4  36   7]
+ [  6 188  40  16]
+ [ 18  30 144  58]
+ [  2   3  37 208]]
+Epoch:15, Step:1770, Loss:0.0307
+Epoch:15, Step:1790, Loss:0.0284
+Epoch:15, Step:1810, Loss:0.0235
+Epoch:15, Step:1830, Loss:0.0228
+Epoch:15, Step:1850, Loss:0.0240
+Epoch:15, Step:1850, weighted_f1:0.7534, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.84      0.88      0.86       250
+           1       0.86      0.75      0.80       250
+           2       0.59      0.56      0.57       250
+           3       0.74      0.83      0.78       250
+
+    accuracy                           0.76      1000
+   macro avg       0.76      0.76      0.75      1000
+weighted avg       0.76      0.76      0.75      1000
+
+[[221   2  23   4]
+ [  9 187  38  16]
+ [ 29  27 140  54]
+ [  5   2  36 207]]
+Epoch:15, Step:1870, Loss:0.0224
+Epoch:15, Step:1875, weighted_f1:0.7431, 耗时:2.1s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.89      0.82      0.85       250
+           1       0.77      0.79      0.78       250
+           2       0.59      0.55      0.57       250
+           3       0.73      0.82      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[204   8  31   7]
+ [  4 198  31  17]
+ [ 15  45 137  53]
+ [  5   6  34 205]]
+Epoch:16, Step:1895, Loss:0.0108
+Epoch:16, Step:1915, Loss:0.0080
+Epoch:16, Step:1935, Loss:0.0088
+Epoch:16, Step:1955, Loss:0.0084
+Epoch:16, Step:1975, Loss:0.0094
+Epoch:16, Step:1975, weighted_f1:0.7509, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85       250
+           1       0.83      0.76      0.79       250
+           2       0.58      0.61      0.59       250
+           3       0.74      0.80      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[207   6  32   5]
+ [  7 190  37  16]
+ [ 18  29 152  51]
+ [  4   5  41 200]]
+Epoch:16, Step:1995, Loss:0.0110
+Epoch:16, Step:2000, weighted_f1:0.7424, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85       250
+           1       0.80      0.77      0.78       250
+           2       0.58      0.55      0.56       250
+           3       0.73      0.82      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[207   7  31   5]
+ [  6 193  36  15]
+ [ 18  37 137  58]
+ [  5   5  34 206]]
+Epoch:17, Step:2020, Loss:0.0197
+Epoch:17, Step:2040, Loss:0.0143
+Epoch:17, Step:2060, Loss:0.0115
+Epoch:17, Step:2080, Loss:0.0107
+Epoch:17, Step:2100, Loss:0.0103
+Epoch:17, Step:2100, weighted_f1:0.7462, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.89      0.83      0.86       250
+           1       0.82      0.77      0.79       250
+           2       0.55      0.60      0.58       250
+           3       0.75      0.77      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.75      1000
+weighted avg       0.75      0.74      0.75      1000
+
+[[208   4  35   3]
+ [  4 192  39  15]
+ [ 18  35 151  46]
+ [  5   4  49 192]]
+Epoch:17, Step:2120, Loss:0.0090
+Epoch:17, Step:2125, weighted_f1:0.7471, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.86       250
+           1       0.83      0.76      0.79       250
+           2       0.56      0.61      0.58       250
+           3       0.74      0.78      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.75      1000
+weighted avg       0.75      0.74      0.75      1000
+
+[[208   4  35   3]
+ [  5 190  39  16]
+ [ 18  31 152  49]
+ [  5   4  47 194]]
+Epoch:18, Step:2145, Loss:0.0082
+Epoch:18, Step:2165, Loss:0.0122
+Epoch:18, Step:2185, Loss:0.0099
+Epoch:18, Step:2205, Loss:0.0093
+Epoch:18, Step:2225, Loss:0.0099
+Epoch:18, Step:2225, weighted_f1:0.7501, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85       250
+           1       0.82      0.76      0.79       250
+           2       0.58      0.59      0.59       250
+           3       0.73      0.81      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[208   6  31   5]
+ [  6 191  37  16]
+ [ 18  32 148  52]
+ [  5   5  38 202]]
+Epoch:18, Step:2245, Loss:0.0084
+Epoch:18, Step:2250, weighted_f1:0.7480, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.84      0.85       250
+           1       0.82      0.75      0.78       250
+           2       0.58      0.59      0.58       250
+           3       0.73      0.81      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[209   5  31   5]
+ [  7 188  39  16]
+ [ 18  32 147  53]
+ [  5   5  37 203]]
+Epoch:19, Step:2270, Loss:0.0017
+Epoch:19, Step:2290, Loss:0.0046
+Epoch:19, Step:2310, Loss:0.0074
+Epoch:19, Step:2330, Loss:0.0064
+Epoch:19, Step:2350, Loss:0.0083
+Epoch:19, Step:2350, weighted_f1:0.7525, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.86       250
+           1       0.82      0.75      0.78       250
+           2       0.59      0.59      0.59       250
+           3       0.73      0.84      0.78       250
+
+    accuracy                           0.75      1000
+   macro avg       0.76      0.75      0.75      1000
+weighted avg       0.76      0.75      0.75      1000
+
+[[208   6  31   5]
+ [  6 187  40  17]
+ [ 17  30 147  56]
+ [  5   4  31 210]]
+Epoch:19, Step:2370, Loss:0.0072
+Epoch:19, Step:2375, weighted_f1:0.7565, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.86       250
+           1       0.83      0.75      0.79       250
+           2       0.60      0.60      0.60       250
+           3       0.73      0.84      0.78       250
+
+    accuracy                           0.76      1000
+   macro avg       0.76      0.76      0.76      1000
+weighted avg       0.76      0.76      0.76      1000
+
+[[208   6  31   5]
+ [  6 188  39  17]
+ [ 17  28 149  56]
+ [  5   4  30 211]]
+Epoch:20, Step:2395, Loss:0.0033
+Epoch:20, Step:2415, Loss:0.0064
+Epoch:20, Step:2435, Loss:0.0068
+Epoch:20, Step:2455, Loss:0.0070
+Epoch:20, Step:2475, Loss:0.0078
+Epoch:20, Step:2475, weighted_f1:0.7479, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       250
+           1       0.80      0.77      0.79       250
+           2       0.58      0.57      0.58       250
+           3       0.73      0.81      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[210   6  29   5]
+ [  6 193  36  15]
+ [ 18  36 142  54]
+ [  5   6  36 203]]
+Epoch:20, Step:2495, Loss:0.0069
+Epoch:20, Step:2500, weighted_f1:0.7498, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       250
+           1       0.82      0.76      0.79       250
+           2       0.58      0.58      0.58       250
+           3       0.74      0.81      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[210   6  30   4]
+ [  6 190  38  16]
+ [ 18  33 146  53]
+ [  5   4  38 203]]
+Epoch:21, Step:2520, Loss:0.0125
+Epoch:21, Step:2540, Loss:0.0091
+Epoch:21, Step:2560, Loss:0.0066
+Epoch:21, Step:2580, Loss:0.0059
+Epoch:21, Step:2600, Loss:0.0054
+Epoch:21, Step:2600, weighted_f1:0.7463, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.84      0.85       250
+           1       0.82      0.76      0.79       250
+           2       0.57      0.58      0.58       250
+           3       0.73      0.80      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.74      0.75      1000
+
+[[209   6  31   4]
+ [  7 189  39  15]
+ [ 18  31 146  55]
+ [  5   4  40 201]]
+Epoch:21, Step:2620, Loss:0.0066
+Epoch:21, Step:2625, weighted_f1:0.7488, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.84      0.86       250
+           1       0.81      0.76      0.78       250
+           2       0.60      0.54      0.57       250
+           3       0.72      0.86      0.78       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[211   6  27   6]
+ [  6 189  38  17]
+ [ 20  32 136  62]
+ [  5   5  25 215]]
+Epoch:22, Step:2645, Loss:0.0038
+Epoch:22, Step:2665, Loss:0.0055
+Epoch:22, Step:2685, Loss:0.0068
+Epoch:22, Step:2705, Loss:0.0062
+Epoch:22, Step:2725, Loss:0.0058
+Epoch:22, Step:2725, weighted_f1:0.7499, 耗时:1.5s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.85      0.86       250
+           1       0.82      0.78      0.80       250
+           2       0.57      0.58      0.57       250
+           3       0.73      0.80      0.76       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[212   4  30   4]
+ [  5 194  36  15]
+ [ 19  34 144  53]
+ [  5   4  42 199]]
+Epoch:22, Step:2745, Loss:0.0058
+Epoch:22, Step:2750, weighted_f1:0.7497, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.84      0.86       250
+           1       0.83      0.76      0.79       250
+           2       0.58      0.58      0.58       250
+           3       0.73      0.81      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[211   4  30   5]
+ [  6 190  38  16]
+ [ 21  30 145  54]
+ [  5   4  38 203]]
+Epoch:23, Step:2770, Loss:0.0067
+Epoch:23, Step:2790, Loss:0.0061
+Epoch:23, Step:2810, Loss:0.0068
+Epoch:23, Step:2830, Loss:0.0056
+Epoch:23, Step:2850, Loss:0.0060
+Epoch:23, Step:2850, weighted_f1:0.7473, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.84      0.85       250
+           1       0.82      0.76      0.79       250
+           2       0.57      0.59      0.58       250
+           3       0.73      0.80      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[209   6  31   4]
+ [  6 189  39  16]
+ [ 19  31 147  53]
+ [  5   4  40 201]]
+Epoch:23, Step:2870, Loss:0.0063
+Epoch:23, Step:2875, weighted_f1:0.7456, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85       250
+           1       0.82      0.76      0.79       250
+           2       0.57      0.58      0.57       250
+           3       0.73      0.80      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.75      1000
+weighted avg       0.75      0.74      0.75      1000
+
+[[207   6  33   4]
+ [  5 191  38  16]
+ [ 18  33 146  53]
+ [  5   4  41 200]]
+Epoch:24, Step:2895, Loss:0.0030
+Epoch:24, Step:2915, Loss:0.0033
+Epoch:24, Step:2935, Loss:0.0063
+Epoch:24, Step:2955, Loss:0.0064
+Epoch:24, Step:2975, Loss:0.0063
+Epoch:24, Step:2975, weighted_f1:0.7477, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.83      0.85       250
+           1       0.83      0.75      0.79       250
+           2       0.57      0.62      0.59       250
+           3       0.75      0.79      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.74      0.75      1000
+
+[[207   6  33   4]
+ [  7 187  41  15]
+ [ 19  29 154  48]
+ [  5   4  44 197]]
+Epoch:24, Step:2995, Loss:0.0057
+Epoch:24, Step:3000, weighted_f1:0.7439, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85       250
+           1       0.81      0.76      0.79       250
+           2       0.56      0.59      0.58       250
+           3       0.74      0.79      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.75      0.74      0.74      1000
+weighted avg       0.75      0.74      0.74      1000
+
+[[207   6  32   5]
+ [  5 191  39  15]
+ [ 18  34 147  51]
+ [  5   5  43 197]]
+Epoch:25, Step:3020, Loss:0.0013
+Epoch:25, Step:3040, Loss:0.0054
+Epoch:25, Step:3060, Loss:0.0038
+Epoch:25, Step:3080, Loss:0.0055
+Epoch:25, Step:3100, Loss:0.0053
+Epoch:25, Step:3100, weighted_f1:0.7482, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.84      0.86       250
+           1       0.80      0.77      0.79       250
+           2       0.58      0.58      0.58       250
+           3       0.74      0.81      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[210   7  28   5]
+ [  7 192  36  15]
+ [ 19  36 144  51]
+ [  5   4  39 202]]
+Epoch:25, Step:3120, Loss:0.0056
+Epoch:25, Step:3125, weighted_f1:0.7493, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85       250
+           1       0.84      0.74      0.79       250
+           2       0.58      0.58      0.58       250
+           3       0.73      0.83      0.78       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[210   4  31   5]
+ [  7 186  40  17]
+ [ 21  28 145  56]
+ [  5   4  33 208]]
+Epoch:26, Step:3145, Loss:0.0043
+Epoch:26, Step:3165, Loss:0.0092
+Epoch:26, Step:3185, Loss:0.0090
+Epoch:26, Step:3205, Loss:0.0081
+Epoch:26, Step:3225, Loss:0.0067
+Epoch:26, Step:3225, weighted_f1:0.7480, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.87      0.85      0.86       250
+           1       0.84      0.75      0.79       250
+           2       0.57      0.60      0.58       250
+           3       0.74      0.79      0.76       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[212   3  31   4]
+ [  8 187  40  15]
+ [ 20  28 150  52]
+ [  5   4  44 197]]
+Epoch:26, Step:3245, Loss:0.0067
+Epoch:26, Step:3250, weighted_f1:0.7408, 耗时:2.0s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.82      0.85       250
+           1       0.80      0.77      0.79       250
+           2       0.56      0.58      0.57       250
+           3       0.73      0.79      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[204   7  35   4]
+ [  4 192  39  15]
+ [ 18  33 145  54]
+ [  5   7  40 198]]
+Epoch:27, Step:3270, Loss:0.0050
+Epoch:27, Step:3290, Loss:0.0038
+Epoch:27, Step:3310, Loss:0.0062
+Epoch:27, Step:3330, Loss:0.0067
+Epoch:27, Step:3350, Loss:0.0056
+Epoch:27, Step:3350, weighted_f1:0.7471, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86       250
+           1       0.82      0.76      0.79       250
+           2       0.59      0.54      0.57       250
+           3       0.72      0.83      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[215   4  26   5]
+ [  8 191  36  15]
+ [ 22  33 136  59]
+ [  6   5  32 207]]
+Epoch:27, Step:3370, Loss:0.0058
+Epoch:27, Step:3375, weighted_f1:0.7424, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86       250
+           1       0.82      0.76      0.79       250
+           2       0.57      0.55      0.56       250
+           3       0.72      0.80      0.76       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[214   4  27   5]
+ [  8 190  37  15]
+ [ 22  32 138  58]
+ [  5   5  39 201]]
+Epoch:28, Step:3395, Loss:0.0049
+Epoch:28, Step:3415, Loss:0.0031
+Epoch:28, Step:3435, Loss:0.0028
+Epoch:28, Step:3455, Loss:0.0046
+Epoch:28, Step:3475, Loss:0.0072
+Epoch:28, Step:3475, weighted_f1:0.7273, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.86      0.81      0.83       250
+           1       0.78      0.77      0.78       250
+           2       0.57      0.53      0.55       250
+           3       0.70      0.80      0.75       250
+
+    accuracy                           0.73      1000
+   macro avg       0.73      0.73      0.73      1000
+weighted avg       0.73      0.73      0.73      1000
+
+[[202   9  32   7]
+ [  8 193  32  17]
+ [ 21  35 133  61]
+ [  3   9  38 200]]
+Epoch:28, Step:3495, Loss:0.0178
+Epoch:28, Step:3500, weighted_f1:0.7477, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.82      0.88      0.85       250
+           1       0.86      0.76      0.80       250
+           2       0.61      0.53      0.57       250
+           3       0.71      0.84      0.77       250
+
+    accuracy                           0.75      1000
+   macro avg       0.75      0.75      0.75      1000
+weighted avg       0.75      0.75      0.75      1000
+
+[[219   4  19   8]
+ [  7 189  39  15]
+ [ 35  21 133  61]
+ [  6   6  28 210]]
+Epoch:29, Step:3520, Loss:0.1148
+Epoch:29, Step:3540, Loss:0.1174
+Epoch:29, Step:3560, Loss:0.1115
+Epoch:29, Step:3580, Loss:0.1025
+Epoch:29, Step:3600, Loss:0.0996
+Epoch:29, Step:3600, weighted_f1:0.7405, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.84      0.86      0.85       250
+           1       0.78      0.78      0.78       250
+           2       0.58      0.55      0.56       250
+           3       0.76      0.78      0.77       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[216   7  20   7]
+ [  6 194  37  13]
+ [ 32  39 137  42]
+ [  3   8  44 195]]
+Epoch:29, Step:3620, Loss:0.0944
+Epoch:29, Step:3625, weighted_f1:0.7237, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84       250
+           1       0.79      0.76      0.78       250
+           2       0.56      0.48      0.52       250
+           3       0.69      0.84      0.76       250
+
+    accuracy                           0.73      1000
+   macro avg       0.73      0.73      0.72      1000
+weighted avg       0.73      0.73      0.72      1000
+
+[[204   5  33   8]
+ [  5 191  35  19]
+ [ 24  39 121  66]
+ [  3   7  29 211]]
+Epoch:30, Step:3645, Loss:0.0257
+Epoch:30, Step:3665, Loss:0.0315
+Epoch:30, Step:3685, Loss:0.0326
+Epoch:30, Step:3705, Loss:0.0287
+Epoch:30, Step:3725, Loss:0.0269
+Epoch:30, Step:3725, weighted_f1:0.7409, 耗时:1.4s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.84      0.86      0.85       250
+           1       0.82      0.77      0.80       250
+           2       0.58      0.50      0.54       250
+           3       0.72      0.84      0.78       250
+
+    accuracy                           0.74      1000
+   macro avg       0.74      0.74      0.74      1000
+weighted avg       0.74      0.74      0.74      1000
+
+[[216   3  25   6]
+ [  6 193  36  15]
+ [ 30  33 125  62]
+ [  4   5  30 211]]
+Epoch:30, Step:3745, Loss:0.0307
+Epoch:30, Step:3750, weighted_f1:0.7351, 耗时:1.9s
+验证集报告:
+              precision    recall  f1-score   support
+
+           0       0.88      0.79      0.83       250
+           1       0.82      0.77      0.79       250
+           2       0.54      0.58      0.56       250
+           3       0.72      0.79      0.75       250
+
+    accuracy                           0.73      1000
+   macro avg       0.74      0.73      0.74      1000
+weighted avg       0.74      0.73      0.74      1000
+
+[[197   8  38   7]
+ [  3 192  40  15]
+ [ 22  28 146  54]
+ [  2   6  45 197]]
+
+[测试集] BiLSTM weighted_f1:0.7696
+报告:
+              precision    recall  f1-score   support
+
+           0       0.77      0.87      0.82       400
+           1       0.86      0.80      0.83       400
+           2       0.64      0.58      0.61       400
+           3       0.80      0.83      0.82       400
+
+    accuracy                           0.77      1600
+   macro avg       0.77      0.77      0.77      1600
+weighted avg       0.77      0.77      0.77      1600
+
+混淆矩阵:
+[[348  10  38   4]
+ [ 20 320  40  20]
+ [ 76  34 233  57]
+ [  9   6  51 334]]

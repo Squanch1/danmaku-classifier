@@ -1,0 +1,5 @@
+=== fastText char_auto 训练日志 ===
+时间: 2026-09-01 22:13:03
+模型: fasttext_char_auto.bin(字符切分 + autotune)
+测试集: 1600 条(均衡 1:1:1:1)
+accuracy: 0.788 | macro-F1: 0.789

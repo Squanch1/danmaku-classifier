@@ -1,0 +1,14 @@
+services:
+  danmaku-api:
+    build: .
+    image: danmaku-classifier:latest
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

@@ -1,0 +1,5 @@
+=== fastText word_auto 训练日志 ===
+时间: 2026-09-01 22:12:14
+模型: fasttext_word_auto.bin(词切分 + autotune)
+测试集: 1600 条(均衡 1:1:1:1)
+accuracy: 0.766 | macro-F1: 0.766

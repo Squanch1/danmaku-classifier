@@ -1,0 +1,5 @@
+# 推理依赖(训练环境 pytorch_gpu: torch 2.13.0+cu126, transformers 5.15.1)
+torch>=2.0
+transformers>=4.40
+fastapi>=0.110
+uvicorn[standard]>=0.29

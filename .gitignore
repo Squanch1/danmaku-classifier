@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.idea/
+.claude/
+.env
+*.pt
+*.bin
+*.safetensors
+*.pkl
+*.joblib
+*.onnx
+*.zip
+*.tar.gz
+*.part
+repro_output/

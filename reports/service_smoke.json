@@ -1,0 +1,7 @@
+{
+  "mode": "ASGI TestClient with real weights and batching",
+  "health_passed": true,
+  "prediction_passed": true,
+  "empty_input_rejected": true,
+  "label": 4
+}
