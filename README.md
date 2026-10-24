@@ -17,6 +17,8 @@
 
 完整复核环境、混淆矩阵及文件校验值见 [reports/reproduced_fp16.json](reports/reproduced_fp16.json)。原日志中的 `macro_f1` 字段有标注不一致问题，原评估代码实际返回Weighted-F1；本次复核分别计算两项。当前测试集各类等量，因此两者数值相同。
 
+公开后又从GitHub重新克隆、无令牌下载Release权重并核对SHA-256，复测结果一致，见 [独立克隆验证记录](reports/clean_clone_evaluation.json)。本次同时跑通一轮训练，以及真实模型的FastAPI健康检查、预测与空输入拒绝；训练和接口记录也在`reports/`中。
+
 ## 快速体验：不重新训练
 
 要求Python 3.10。以下命令在克隆后的仓库根执行，脚本内部文件路径均按模块位置解析。
