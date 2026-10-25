@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "39cfae4bc03e4a747229e323d4a5393bc221e9245826c3d5e98c39ae689a9f7a",
-      "bytes": 6121
+      "sha256": "b548ce0f328606d3e1b0f2d7c27c11d93c9cb4cbff05469fea6223996a8fe260",
+      "bytes": 6222
     },
     {
       "path": "requirements.txt",
@@ -32,8 +32,8 @@
     },
     {
       "path": "SPEC.md",
-      "sha256": "e1e6c9f1aa8516fab1923a472a26762ba906c213a84a591ec8a9b7d8fc0b2a9f",
-      "bytes": 806
+      "sha256": "1f0654ae0c6591f51acb0ce4f8c6637ac909a38a3c19273d9ce04b317f425685",
+      "bytes": 971
     },
     {
       "path": "THIRD_PARTY.md",
@@ -42,8 +42,8 @@
     },
     {
       "path": "bert/README.md",
-      "sha256": "e6297f0739dcd7e9bf406aecf4baabe3e1fbad0a4f570493b219c3cd9071b0e0",
-      "bytes": 4598
+      "sha256": "1ba14dd5a8c814a632c94329e56a57c8e14fcbaf5efb175269b1a268e5476dfa",
+      "bytes": 4895
     },
     {
       "path": "bert/log/2026_09_01_log.txt",
@@ -322,8 +322,8 @@
     },
     {
       "path": "data/README.md",
-      "sha256": "401e57f40233b6ae82fcd38152a11392cf9fcffbe20f982916572371912b7a0d",
-      "bytes": 4295
+      "sha256": "6e743e9436a9e2911f2dec3425209e7bafaecc30766f2f4e90f2b53b93bca281",
+      "bytes": 4592
     },
     {
       "path": "data/scripts/annotate_pilot.py",
@@ -407,8 +407,8 @@
     },
     {
       "path": "deploy/MANUAL.md",
-      "sha256": "5a595fe5071097f634a625289fc278ef559ce74276f1396c11609524693d229f",
-      "bytes": 7945
+      "sha256": "5a439a226264e01141dd1be52a08df1a0ce1fb6c73232b516d82cd9c0e8a4dba",
+      "bytes": 8242
     },
     {
       "path": "deploy/README.md",
@@ -562,8 +562,8 @@
     },
     {
       "path": "reports/PUBLICATION.md",
-      "sha256": "884770d7754c6079b0e74e86ce54bc95b2abb931fc49d410ab23838d871f21b4",
-      "bytes": 1711
+      "sha256": "ec53b010fcfd0c2f0f385a1683282bb9eb60039f29605d30a27407aac7594413",
+      "bytes": 2218
     },
     {
       "path": "reports/reproduced_fp16.json",
